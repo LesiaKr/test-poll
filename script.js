@@ -89,10 +89,10 @@ btnNext.addEventListener('click', function (e) {
     })
 })
 
-// const scriptURL = 'https://script.google.com/macros/s/AKfycbwkbp4kR871njhNY2FNOCI9T-d5PF_--rSNY7vjqLWJ0O1qGtEofLPRWfh9a2gk_ts68A/exec';
-// form.addEventListener('submit', e => {
-//     e.preventDefault();
-//     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-//       .then(response => console.log('Success!', response))
-//       .catch(error => console.error('Error!', error.message))
-// })
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwkbp4kR871njhNY2FNOCI9T-d5PF_--rSNY7vjqLWJ0O1qGtEofLPRWfh9a2gk_ts68A/exec';
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+})
