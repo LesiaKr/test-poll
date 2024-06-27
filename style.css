@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: "Inter";
-    src: url(/fonts/Inter-Regular.ttf);
+    src: url(fonts/Inter-Regular.ttf);
 }
 .wrapper{
     min-width: 320px;
@@ -28,7 +28,7 @@
 }
 .header__bcg{
     position: absolute;
-    background-image: url(/image/logo.png);
+    background-image: url(image/logo.png);
     background-repeat: no-repeat;
     top: 0;
     left: -100%;
@@ -83,7 +83,7 @@ form{
     position: absolute;
     top: auto; 
     left: 0;
-    transition: all 2s; 
+    transition: left 2s; 
 }
 .block-first.active{
     position: absolute;
@@ -147,7 +147,7 @@ hr{
     width: 270px;
     top: auto;
     left: -100%;
-    transition: all 2s; 
+    transition: left 2s; 
     background-color: #191919;
 }
 .block.active{
@@ -155,6 +155,7 @@ hr{
     top: auto; 
     left: 0;
     transition: left 2s; 
+    background-color: #191919;
 }
 .details{
     display: flex;
